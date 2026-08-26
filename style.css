@@ -162,3 +162,30 @@ mjx-container:not([display="true"]) {
 .data-table th {
     font-weight: normal;
 }
+
+.navigation {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation button {
+    width: 3rem;
+    height: 3rem;
+
+    font-size: 1.5rem;
+
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background: #eee;
+}
